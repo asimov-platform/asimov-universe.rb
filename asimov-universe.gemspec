@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   gem.email              = "support@asimov.so"
 
   gem.platform           = Gem::Platform::RUBY
-  gem.files              = %w(AUTHORS CHANGES.md README.md UNLICENSE VERSION)
+  gem.files              = %w(AUTHORS CHANGES.md README.md UNLICENSE VERSION) + Dir.glob("lib/**/*.rb")
   gem.bindir             = %q(bin)
   gem.executables        = %w()
 
